@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 
-export default function LocalStorageExample() {
+export default function Login() {
 	const [token, setToken] = useState<string | null>(null);
 	const router = useRouter();
 

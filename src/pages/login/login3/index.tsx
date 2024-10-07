@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useRouter } from "next/router";
 
-export default function HttpOnlyCookieExample() {
+export default function Login() {
 	const [status, setStatus] = useState<string | null>(null);
 	const router = useRouter();
 
